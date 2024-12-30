@@ -20,6 +20,9 @@ module.exports = {
       colors: {
         gameboy,
       },
+      fontFamily: {
+        sans: ['iA Writer Quattro', 'sans-serif'],  // This sets the default font for sans-serif
+      },
     },
   },
   plugins: [],
