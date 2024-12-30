@@ -1,0 +1,17 @@
+{
+  "name": "birding-app",
+  "version": "1.0.0",
+  "description": "A placeholder landing page for the birding app",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build:css": "tailwindcss -i ./styles.css -o ./dist/output.css --watch"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2",
+    "postcss": "^8.4.21",
+    "autoprefixer": "^10.4.14"
+  }
+}
